@@ -173,6 +173,12 @@ run_phpcs() {
   phpcs -i
 }
 
+look_around() {
+  pwd
+  ll
+}
+
+look_around
 install_wp
 install_test_suite
 install_db
